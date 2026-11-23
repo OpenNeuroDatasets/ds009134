@@ -1,0 +1,48 @@
+{
+    "onsetsample": {
+        "Description": "Onset time of the event relative to the EEG recording.",
+        "Units": "samples"
+    },
+    "eventnumber": {
+        "Description": "Sequential number assigned to each event.",
+        "Units": "integer"
+    },
+    "subjectnr": {
+        "Description": "Subject number associated with the recording.",
+        "Units": "integer"
+    },
+    "blocksequencenumber": {
+        "Description": "Sequence number of the block in which the event occurred.",
+        "Units": "integer"
+    },
+    "sequencenumber": {
+        "Description": "Sequence number of the event in the task.",
+        "Units": "integer"
+    },
+    "presentationnumber": {
+        "Description": "Number representing the order of the event presentation.",
+        "Units": "integer"
+    },
+    "stimpath": {
+        "Description": "Relative file path to the stimulus presented."
+    },
+    "istarget": {
+        "Description": "Whether the event was a target stimulus.",
+        "Levels": {
+            "0": "Non-target",
+            "1": "Target"
+        }
+    },
+    "time_stimon": {
+        "Description": "Time in seconds when the stimulus turned on, relative to the start of the EEG recording.",
+        "Units": "seconds"
+    },
+    "time_stimoff": {
+        "Description": "Time in seconds when the stimulus turned off, relative to the start of the EEG recording.",
+        "Units": "seconds"
+    },
+    "stimdur": {
+        "Description": "Duration of the stimulus presentation.",
+        "Units": "seconds"
+    }
+}
