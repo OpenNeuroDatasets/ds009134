@@ -23,7 +23,7 @@
         "https://doi.org/10.1167/jov.26.8.4",
         "https://osf.io/x6fv9/"
     ],
-    "DatasetDOI": "",
+    "DatasetDOI": "doi:10.18112/openneuro.ds009134.v1.0.0",
     "GeneratedBy": [
         {
             "Name": "PsychoPy",
